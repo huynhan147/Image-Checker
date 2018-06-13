@@ -21,7 +21,7 @@ $image = new ImageChecker($path);
 - Phát hiện format của file ảnh
 
 ```
-$image->DetectImage()();
+$image->detectImage();
 
 ```
  

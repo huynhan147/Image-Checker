@@ -11,7 +11,7 @@ use HuyPhi\ImageChecker\ImageChecker;
 use PHPUnit\Framework\TestCase;
 class ImageCheckerTest extends TestCase
 {
-    public function testDetectImage(){
+    public function testdetectImage(){
         $image = new ImageChecker('http://www.pngall.com/wp-content/uploads/2016/07/Facebook-Download-PNG.png');
         $this->assertSame('PNG',$image->detectImage());
     }

@@ -28,7 +28,7 @@ class ImageChecker
         $header = unpack ($header_format, $data);
         $this->ver = $header['version'];
     }
-    public function DetectImage(){
+    public function detectImage(){
         if($this->is_GIF()) return 'GIF';
         if($this->is_JPG()) return 'JPG';
         if($this->is_PNG()) return 'PNG';
