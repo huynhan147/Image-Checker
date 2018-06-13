@@ -1,0 +1,21 @@
+{
+    "name": "huyphi/image_checker",
+    "description": "Identify the image format",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huynhan147",
+            "email": "huyitptit2015@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "HuyPhi\\ImageChecker\\" : "src/",
+            "HuyPhi\\ImageCheckerTest\\": "tests/"
+        }
+    }
+}
